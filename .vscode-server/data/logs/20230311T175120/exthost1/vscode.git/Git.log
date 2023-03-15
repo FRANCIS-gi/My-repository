@@ -1,0 +1,28 @@
+2023-03-11 17:51:33.090 [info] Log level: Info
+2023-03-11 17:51:33.090 [info] Validating found git in: "git"
+2023-03-11 17:51:33.090 [info] Using git "2.39.2" from "git"
+2023-03-11 17:51:33.091 [info] > git rev-parse --show-toplevel [114ms]
+2023-03-11 17:51:33.091 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 17:51:33.093 [info] > git rev-parse --show-toplevel [84ms]
+2023-03-11 17:51:33.094 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 17:52:57.451 [info] > git rev-parse --show-toplevel [28ms]
+2023-03-11 17:52:57.452 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 17:53:36.463 [info] > git rev-parse --show-toplevel [474ms]
+2023-03-11 17:53:49.366 [info] > git rev-parse --show-toplevel [69ms]
+2023-03-11 17:53:49.499 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2023-03-11 17:53:49.555 [info] Open repository: /home/frank/.rbenv
+2023-03-11 17:53:49.812 [info] > git config --get commit.template [152ms]
+2023-03-11 17:53:50.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [675ms]
+2023-03-11 17:53:50.866 [info] > git show --textconv :versions/2.7.4/lib/ruby/gems/2.7.0/gems/learn-lab-0.1.0/lib/learn_lab/vcs.rb [873ms]
+2023-03-11 17:53:50.925 [info] > git ls-files --stage -- /home/frank/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/learn-lab-0.1.0/lib/learn_lab/vcs.rb [605ms]
+2023-03-11 17:53:50.954 [info] > git check-ignore -v -z --stdin [485ms]
+2023-03-11 17:53:52.555 [info] > git status -z -uall [1951ms]
+2023-03-11 17:53:52.967 [info] > git config --get commit.template [200ms]
+2023-03-11 17:53:53.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [68ms]
+2023-03-11 17:53:53.289 [info] > git status -z -uall [133ms]
+2023-03-11 17:53:53.727 [info] > git rev-parse --show-toplevel [37ms]
+2023-03-11 17:53:53.727 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 17:54:09.564 [info] > git rev-parse --show-toplevel [36ms]
+2023-03-11 17:54:09.565 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 17:54:15.448 [info] > git rev-parse --show-toplevel [45ms]
+2023-03-11 17:54:15.448 [info] fatal: not a git repository (or any of the parent directories): .git

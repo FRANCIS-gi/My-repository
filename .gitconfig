@@ -1,0 +1,8 @@
+[color]
+	ui = true
+[user]
+	name = Francis
+	email = fgkiron@gmail.com
+	name = Francis
+[init]
+	defaultBranch = main

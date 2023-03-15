@@ -1,0 +1,30 @@
+2023-03-11 18:08:46.137 [info] Log level: Info
+2023-03-11 18:08:46.137 [info] Validating found git in: "git"
+2023-03-11 18:08:46.137 [info] Using git "2.39.2" from "git"
+2023-03-11 18:08:46.138 [info] > git rev-parse --show-toplevel [134ms]
+2023-03-11 18:08:46.138 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 18:08:46.141 [info] > git rev-parse --show-toplevel [146ms]
+2023-03-11 18:08:46.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 18:08:49.714 [info] > git rev-parse --show-toplevel [16ms]
+2023-03-11 18:08:49.714 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 18:08:52.084 [info] > git rev-parse --show-toplevel [41ms]
+2023-03-11 18:08:52.084 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 18:08:54.199 [info] > git rev-parse --show-toplevel [58ms]
+2023-03-11 18:08:54.522 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2023-03-11 18:08:54.576 [info] Open repository: /home/frank/.rbenv
+2023-03-11 18:08:54.764 [info] > git config --get commit.template [20ms]
+2023-03-11 18:08:54.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2023-03-11 18:08:55.656 [info] > git status -z -uall [489ms]
+2023-03-11 18:08:55.657 [info] > git show --textconv :versions/2.7.4/lib/ruby/gems/2.7.0/gems/learn-lab-0.1.0/exe/learn-lab [265ms]
+2023-03-11 18:08:55.658 [info] > git ls-files --stage -- /home/frank/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/learn-lab-0.1.0/exe/learn-lab [139ms]
+2023-03-11 18:08:55.741 [info] > git check-ignore -v -z --stdin [95ms]
+2023-03-11 18:08:55.906 [info] > git config --get commit.template [43ms]
+2023-03-11 18:08:56.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2023-03-11 18:08:56.274 [info] > git status -z -uall [63ms]
+2023-03-11 18:08:59.677 [info] > git rev-parse --show-toplevel [43ms]
+2023-03-11 18:08:59.678 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-11 18:09:02.083 [info] > git show --textconv :versions/2.7.4/lib/ruby/gems/2.7.0/gems/learn-lab-0.1.0/lib/learn_lab/vcs.rb [568ms]
+2023-03-11 18:09:02.084 [info] > git check-ignore -v -z --stdin [15ms]
+2023-03-11 18:09:02.088 [info] > git ls-files --stage -- /home/frank/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/learn-lab-0.1.0/lib/learn_lab/vcs.rb [396ms]
+2023-03-11 18:09:08.485 [info] > git rev-parse --show-toplevel [23ms]
+2023-03-11 18:09:08.485 [info] fatal: not a git repository (or any of the parent directories): .git

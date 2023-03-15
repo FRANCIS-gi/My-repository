@@ -1,0 +1,15 @@
+2023-03-11 18:08:32.004 [info] 
+
+
+
+
+2023-03-11 18:08:32.275 [info] Extension host agent started.
+2023-03-11 18:08:33.614 [info] [127.0.0.1][9e9015b6][ManagementConnection] New connection established.
+2023-03-11 18:08:33.627 [info] [127.0.0.1][022a8acb][ExtensionHostConnection] New connection established.
+2023-03-11 18:08:42.061 [error] ptyHost was unable to resolve shell environment {}
+2023-03-11 18:08:42.068 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-03-11 18:08:42.070 [error] RequestService#request (node) resolving shell environment failed {}
+2023-03-11 18:08:42.351 [info] [127.0.0.1][022a8acb][ExtensionHostConnection] <8438> Launched Extension Host Process.
+2023-03-11 18:08:42.635 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-03-11 18:11:48.120 [info] [127.0.0.1][9e9015b6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-11 18:11:48.806 [info] [127.0.0.1][022a8acb][ExtensionHostConnection] <8438> Extension Host Process exited with code: 0, signal: null.
